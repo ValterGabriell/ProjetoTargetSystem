@@ -1,8 +1,8 @@
 package InvercaoDeString
 
-class ReserveString {
+class ReverseString {
     companion object {
-        fun reverse(str: String): String {
+        fun reverse(str: String) {
             val charArray: CharArray = str.toCharArray()
 
             var a = 0
@@ -15,7 +15,7 @@ class ReserveString {
                 a++; x--;
             }
 
-            return String(charArray)
+            print(String(charArray))
         }
     }
 }
